@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 50px; 
+    color: rgb(255, 0, 238); 
+    font-weight: 900;
+    text-align: center;
+}
+    a, p, h1, h2, h3, button{
+        font-family: "Playfair Display", serif;
+    }
+img{  
+    width: 100%; 
+    height: auto; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    display: block; 
+} 
+
+.sec1{
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0); 
+    text-align: center;
+
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px; 
+    margin-top: 20px;   
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 238);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-left: 240%;
+}
