@@ -1,0 +1,61 @@
+main{
+    width: 100%;
+    margin-top: 2%;
+}
+.left{
+    width: 25%;
+}
+.trailers{
+   background-color: gray;
+   backdrop-filter: blur(5px);
+   border-radius: 15px;
+   padding: 5%;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 60%;
+   justify-content: space-between;
+
+}
+.trailers > h3{
+    color: white;
+    font-size: 18px;
+    word-spacing: 1px;
+    margin: 0;
+    
+}
+.trailers > .trailer-card1, .trailer-card2{
+    border-radius: 15px;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    background-position: bottom center;
+}
+.trailer-card1{
+    background-image: url("../images/img.jpg");
+}
+.trailer-card2{
+    background-image: url("../images/img2.jpg");
+}
+.blur{
+    background-color: rgba(160, 4, 101, 0.109);
+    backdrop-filter: blur(10px);
+   padding: 1% 5%; 
+}
+.blur > h3{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+.blur > p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 200;
+    margin-top: 5px;
+}

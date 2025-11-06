@@ -1,0 +1,152 @@
+a,p,h1,h2,h3,h4,button, input{
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    margin: 0;
+    background-image: url("../images/gradient_sinij_fioletovyj_151819_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 80vh;
+    padding: 10vh 5%;
+}
+
+.glass{
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    padding: 3%;
+    border: 2px solid rgba(255, 255, 255, 0.336);
+}
+
+header{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 25%;
+    height: 100%;
+}
+
+.search{
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    align-items: center;
+    padding: 0 5%;
+    color:  white;
+    gap: 10px;
+}
+
+.right{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .right > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+
+header > .right > nav > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding: 0 30px; 
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    background-color: transparent;
+     box-shadow: 0 0 6px transparent; 
+}
+
+.active{
+    background-color:rgba(255, 255, 255, 0.116); 
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.336); 
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.236); 
+}
+
+header > .right > nav > a:hover{
+     background-color:rgba(255, 255, 255, 0.116); 
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.336); 
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.236);
+}
+
+.notification{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.116); 
+    backdrop-filter: blur(2px);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.auth{
+    height: 100%;
+    width: 20%;
+    background-color:rgba(255, 255, 255, 0.116); 
+    backdrop-filter: blur(2px);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.auth > img{
+    height: 80%;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.278);
+}
+
+.userinfo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userinfo > .username{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.userinfo > .tag{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.auth > .fa-chevron-down{
+    color: white;
+    margin: 0 15px;
+}
